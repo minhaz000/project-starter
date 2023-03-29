@@ -1,4 +1,4 @@
-const configDB= require('./db.config')
+const configDB= require('./middleware/db.config')
 const app = require('./app')
 const port = process.env.PORT  || 8080
 
